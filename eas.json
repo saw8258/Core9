@@ -1,11 +1,5 @@
 {
   "build": {
-    "preview": {
-      "distribution": "internal",
-      "android": {
-        "buildType": "apk"
-      }
-    },
     "production": {
       "android": {
         "buildType": "app-bundle",
@@ -16,6 +10,12 @@
         "buildConfiguration": "Release",
         "releaseChannel": "production",
         "credentialsSource": "remote"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
       }
     }
   }
