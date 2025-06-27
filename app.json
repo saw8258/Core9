@@ -3,7 +3,7 @@
     "name": "Core9",
     "slug": "core9",
     "version": "1.0.0",
-    "orientation": " "portrait",
+    "orientation": 
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
     "splash": {
