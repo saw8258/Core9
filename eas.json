@@ -1,5 +1,11 @@
 {
   "build": {
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
+    },
     "production": {
       "android": {
         "buildType": "app-bundle",
@@ -11,11 +17,12 @@
         "releaseChannel": "production",
         "credentialsSource": "remote"
       }
-    },
-    "preview": {
-      "distribution": "internal",
+    }
+  },
+  "submit": {
+    "production": {
       "android": {
-        "buildType": "apk"
+        "serviceAccountKeyPath": "./credentials/google-play-service-account.json"
       }
     }
   }
